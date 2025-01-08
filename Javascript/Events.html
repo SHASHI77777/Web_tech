@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>Demo on Events </h1>
+
+
+    <button onclick="console.log('hello from html');">
+        click here
+    </button>
+    <br>
+    <br>
+    <br>
+
+    <button onclick="call()">
+        click here
+    </button>
+
+
+    <br>
+    <br>
+    <br>
+    <button onclick="SingleClick()">
+        Single Click
+    </button>
+
+    <br>
+    <br>
+    <br>
+    <button ondblclick="DoubleClick()">
+        Double Click
+    </button>
+    <br>
+    <br>
+    <br>
+
+    <button onclick="SingleClick()" ondblclick="DoubleClick()">
+        Click This
+    </button>
+
+
+    <h2>Keyboard Events</h2>
+
+    <h2>Keyboard Events onkeypress</h2>
+    <input type="text" onkeypress="fun1()"></input>
+
+    <h2>Keyboard Events onkeydown</h2>
+    <input type="text" onkeydown="fun2()"></input>
+
+    <h2>Keyboard Events onkeyup</h2>
+    <input type="text" onkeyup="fun3()"></input>
+
+
+
+    <h2>Mouse Events</h2>
+
+
+    <img src="./images/card4img.jpeg" height=" 150" width="250" onmouseover="smile()">
+
+    <h2>Form Events</h2>
+
+
+    <form onsubmit="handleSubmit(event)">
+        <input type="text" placeholder="first name" >
+
+        <input type="text" placeholder="last name " >
+
+        <input type="date" >
+
+
+        <button>Submit</button>
+    </form>
+
+    <br><br><br>
+
+    <button onclick=" PrintName()">
+        Print Name 
+    </button>
+
+
+
+
+
+
+
+
+
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./Events.js"></script>
+
+
+</body>
+
+</html>

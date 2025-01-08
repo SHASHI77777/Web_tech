@@ -1,0 +1,21 @@
+.box{
+border: solid 1px black;
+height: 150px;
+width: 150px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 150px;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+img{
+    height: 400px;
+    width: 350px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+}
