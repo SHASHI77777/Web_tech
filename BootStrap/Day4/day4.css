@@ -1,0 +1,84 @@
+/* General Navbar Styles */
+.navbar-custom {
+    background-color: #212529;
+    padding: 0.8rem 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-custom .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffc107;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-custom .brand-logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+  
+  .navbar-custom .nav-link {
+    color: #f8f9fa;
+    font-size: 1rem;
+    margin-right: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-custom .nav-link:hover {
+    color: #ffc107;
+    text-decoration: underline;
+  }
+  
+  .navbar-custom .dropdown-menu {
+    background-color: #343a40;
+    border: none;
+  }
+  
+  .navbar-custom .dropdown-item {
+    color: #f8f9fa;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar-custom .dropdown-item:hover {
+    background-color: #ffc107;
+    color: #212529;
+  }
+  
+  /* Search Bar */
+  .search-input {
+    background-color: #2c3034;
+    color: #fff;
+    border: 1px solid #495057;
+  }
+  
+  .search-input::placeholder {
+    color: #adb5bd;
+  }
+  
+  /* Popover Customization */
+  .popover-custom {
+    background-color: #f8f9fa;
+    border: 1px solid #ffc107;
+    color: #212529;
+  }
+  
+  /* Tooltip Customization */
+  .tooltip-custom {
+    background-color: #ffc107;
+    color: #212529;
+    font-weight: bold;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .navbar-custom .nav-link {
+      margin-right: 0;
+    }
+    .navbar-custom .search-input {
+      width: 100%;
+      margin-bottom: 0.5rem;
+    }
+  }
