@@ -1,0 +1,251 @@
+* {
+  margin: 0px;
+  padding: 0;
+}
+.bgimg {
+  height: 100vh;
+  width: 100%;
+  background: url(./Images/app-link-background.svg);
+}
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 13vh;
+  background: rgba(0, 0, 0, 0.12);
+  display: flex;
+  align-items: center;
+}
+.logo {
+  margin: 0 100px;
+  height: 100px;
+  width: 200px;
+  background: url(./Images/kb_logo_new_2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.nav {
+  margin-left: auto;
+  margin-right: 100px;
+}
+.nav li {
+  display: inline-block;
+  margin: 0 20px;
+  list-style: none;
+}
+.nav a {
+  text-decoration: none;
+  font-size: 22px;
+  color: rgba(255, 255, 255, 0.781);
+}
+.main {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  text-align: center;
+}
+.main > h3 {
+  color: black;
+  padding-top: 40vh;
+  font-size: 70px;
+  text-transform: uppercase;
+}
+.buttons-cont{
+  margin: 60px 0;
+  justify-content: center;
+}
+.pink-btn {
+  background: #ff5672;
+  padding: 10px 20px;
+  width: 195px;
+  color: white;
+  font-size: 19px;
+  font-weight: 600;
+  border-radius: 9px;
+  border: none;
+}
+
+.stores-cont {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+}
+.ios-store {
+  width: 203px;
+  height: 68px;
+  background: url(./Images/ios-store.svg);
+  background-repeat: no-repeat;
+}
+.android-store {
+  width: 182.7px;
+  height: 70px;
+  background: url(./Images/google-play-badge.svg);
+  background-repeat: no-repeat;
+  transform: scale(1.2);
+}
+
+.ios-store,.android-store {
+  transition: all 0.5s;
+  margin: 0 30px;
+}
+a:link {
+  text-decoration: none;
+}
+.bottombutton {
+    width: 50px;
+    height: 50px;
+    border-radius: 100% 0% 100% 100%;
+    background-color: #ff5672;
+    bottom: 5%;
+    right: 1%;
+    position: fixed;
+    z-index: 1;
+}
+
+.bottombutton img {
+    width: 30px;
+    height: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.feature {
+  margin-top: 70px;
+  height: 100%;
+}
+.feature > h1 {
+  color: #424242;
+  font-size: 55px;
+  font-weight: 700;
+  text-align: center;
+}
+.feature-box {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  margin: 100px 50px;
+}
+.feature-cont {
+  display: flex;
+  flex-direction: column;
+}
+.desc {
+  margin: 40px 0;
+  color: #424242;
+  font-size: 20px;
+  text-align: center;
+  width: 190px;
+}
+
+.banner-1 {
+  text-align: center;
+  display: flex;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.banner-1 {
+  background: url(./Images/banner-1.webp);
+  background-size: cover;
+  height: 120vh;
+}
+.banner-1 > h3 {
+  color: black;
+  width: 100%;
+  margin: 0 auto;
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+  font-size: 75px;
+  text-transform: uppercase;
+}
+.banner-2 {
+  display: flex;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.banner-2 {
+  background: url(./Images/banner-2.webp);
+  background-repeat: no-repeat;
+  background-size:cover ;
+  height: 100vh;
+  width: 100%;
+}
+
+.banner-2 h3 {
+  text-align: center;
+  margin: auto;
+  color: black;
+  width: 100%;
+  font-size: 65px;
+  text-transform: uppercase;
+}
+.menu-btn {
+  margin: 0 auto 100px;
+  width: 250px;
+  border: 1px solid white;
+  background: none;
+  padding: 7px;
+  font-weight: 600;
+  font-size: 30px;
+  color: white;
+  border-radius: 50px;
+}
+.footer {
+  padding-top: 50px;
+}
+.footer > h1 {
+  margin-bottom: 40px;
+  font-size: 55px; 
+  text-align: center;
+}
+.footer-details {
+  display: grid;
+  margin: 40px 50px;
+  /* grid-template-columns: repeat(2, 1fr) 2fr; */
+  grid-template-columns: auto auto auto;
+  justify-content: space-evenly;
+  column-gap: 20px;
+  font-weight: 300;
+  font-size: 20px;
+  color: #424242;
+}
+.footer-item {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 20px;
+}
+.footer h3 {
+  margin-bottom: 40px;
+  color: #424242;
+  font-size: 30px;
+  font-weight: 700;
+}
+.footer-item {
+  display: flex;
+  margin: 20px;
+}
+
+.footer-item li {
+  padding: 10px 5px;
+  list-style-type: none;
+}
+.footer-logo{
+  display: flex; 
+  justify-content: center;
+  margin: 50px 0;
+}
+.copyright {
+  display: flex;
+  align-items: center;
+  background-color: #c77bf4 ;
+  
+  height: 50px;
+  width: 100%;
+  color: white;
+  font-size: 15px;
+}
+
+.p1 {
+  margin: auto;
+}
