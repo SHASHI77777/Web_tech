@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./sytle.css">
+</head>
+
+<body>
+
+    <table border="1" cellspacing="10">
+        <thead>
+            <tr>
+                <th colspan="4" onclick="getValue(event)"><input type="text" name="" id=""></th>
+            </tr>
+        </thead>
+        <tr>
+            <th colspan="2" onclick="clearAll()">CE</th>
+            <th onclick="getValue(event)">/</th>
+            <th onclick="getValue(event)">*</th>
+        </tr>
+        <tr>
+            <th onclick="getValue(event)">7</th>
+            <th onclick="getValue(event)">8</th>
+            <th onclick="getValue(event)">9</th>
+            <th onclick="getValue(event)">-</th>
+        </tr>
+        <tr>
+            <th onclick="getValue(event)">4</th>
+            <th onclick="getValue(event)">5</th>
+            <th onclick="getValue(event)">6</th>
+            <th onclick="getValue(event)">+</th>
+        </tr>
+        <tr>
+            <th onclick="getValue(event)">1</th>
+            <th onclick="getValue(event)">2</th>
+            <th onclick="getValue(event)">3</th>
+            <th rowspan="2" onclick="finalResult()">=</th>
+        </tr>
+        <tr>
+            <th onclick="getValue(event)">.</th>
+            <th onclick="getValue(event)">0</th>
+            <th onclick="getValue(event)">%</th>
+        </tr>
+
+    </table>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+
+body {
+    font-family: Arial, sans-serif;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; */
+    background-color: #f0f0f0;
+}
+.main{
+    text-align: center;
+}
+.btn {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+h2{
+    color: brown;
+    text-align: center;
+}
+

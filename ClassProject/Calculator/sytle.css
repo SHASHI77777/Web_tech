@@ -1,0 +1,23 @@
+ table{
+    height: 6vh;
+    width: 30%;
+    margin: 20px auto;
+    background: orange;
+}
+
+th,td{
+    height: 10vh;
+    width: 10vw;
+}
+
+tbody th{
+border-radius: 10px;
+}
+
+input{
+    height: 100%;
+    width: 99%;
+    border: none;
+    outline: none;
+
+} 

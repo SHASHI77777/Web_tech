@@ -1,0 +1,46 @@
+body{
+    background:(rgba(255, 255, 255, 0.823));
+}
+.loginpage{
+    border: solid 1px black;
+    height: 400px;
+    width: 400px;
+    background-color: orange;
+    margin: auto;
+    margin-top: 100px;
+   
+}
+/* .inner{
+    width: 95%;
+    height: 98%;
+    border-radius: 0% 100%;
+    border-color: white;
+    background-color: white;
+
+} */
+h1{
+    text-align: center;
+}
+label{
+    display: block;
+   margin-top: 10px auto;
+    text-align: center;
+}
+input {
+    display: block;
+    margin: 20px auto;
+    height: 35px;
+    width: 90%;
+    text-align: center;
+    border-radius: 30px;
+
+}
+button{
+    display: block;
+    margin: 40px auto;
+    background : blue;
+    color: white;
+    width: 85%;
+    border-radius: 10px;
+    height: 40px;
+}
