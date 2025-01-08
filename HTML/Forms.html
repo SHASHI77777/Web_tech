@@ -1,0 +1,211 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>DEMO OF FORMS </h1>
+    <form method="post">
+<fieldset>
+     <legend align="center">Log in details </legend>
+    <label> First name: <sup>*</sup> </label>
+
+    <input type="text" name="fnm" placeholder="Enter First Name" required>
+    <br>
+    <br>
+    <label> Last Name</label>
+    <input type="text" name="Lnm" placeholder="Enter last  Name">
+    <br> <br>
+
+    <label>Email-id</label>
+
+    <input type="email" name="mail" placeholder=" Enter your Email-id">
+
+
+    <label>PASSWORD</label>
+    <input type="password" placeholder="Enter password">
+    <br>
+
+    
+
+        <br> <br>
+        <label> Age</label>
+        <input type="number" name="age" min="0" max="100">
+
+        <br>
+        <br>
+        <label> Contact:</label>
+        <input type="tel" name="Contact" pattern="[6-9]{1}[0-9]{9}" placeholder="Phone-number ">
+        <br>
+        <br>
+        <label> Date of birth</label>
+        <input type="date">
+        <br>
+        <br>
+        <label>time</label>
+        <input type="time">
+        <br>
+        <br>
+        <label> Date & time</label>
+        <input type="datetime-local">
+        <br>
+        <br>
+        <label> Volume </label>
+        <input type="range" name="range" min="20" max="80">
+        <br>
+
+
+        <br>
+        <br>
+        <label> Gender :</label>
+
+        <label for="m">Male</label>
+        <input type="radio" name="gender" value="Male" id="m" checked>
+
+        <label for="f">Female</label>
+        <input type="radio" name="gender" value="Female" id="f">
+
+        <label for="o">Others</label>
+        <input type="radio" name="gender" value="Others" id="o" disabled>
+        <br>
+        <br>
+        <label>Language</label>
+
+        <label>English</label>
+        <input type="checkbox" name="lang" value="eng">
+        <label>Hindi</label>
+        <input type="checkbox" name="lang" value="hin">
+        <label>Bhojpuri</label>
+        <input type="checkbox" name="lang" value="Bhojpuri">
+
+        <br>
+        <br>
+         <label for="">Places</label>
+        <select name=" Places" id=""> 
+            <option value="bangalore" selected> bangalore</option>
+            <option value="Kolkata"> Kolkata</option>
+            <option value="mumbai" disabled>mumbai</option>
+            <option value="delhi">delhi</option>
+            <option value="haldawani"> haldawani</option>
+        </select>
+        <br>
+        <br>
+
+        <textarea name="cmnt" id="" cols="10" rows="5"></textarea>
+      
+        <br> <br> 
+
+        <input type="color" name="color" id="">
+
+        <br> <br>
+        <input type="reset" >
+
+        <input type="submit" value="LOG IN">
+
+
+</fieldset>
+
+
+    </form>
+
+</body>
+
+</html> -->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Demo</title>
+    <link rel="stylesheet" href="../CSS/Form.css/Form.css">
+</head>
+
+<body>
+
+    <form method="post">
+        <h1>DEMO OF FORMS</h1>
+        <fieldset>
+            <legend>Log in details</legend>
+            <label for="fnm">First name <sup>*</sup></label>
+            <input type="text" id="fnm" name="fnm" placeholder="Enter First Name" required>
+
+            <label for="lnm">Last Name</label>
+            <input type="text" id="lnm" name="lnm" placeholder="Enter Last Name">
+
+            <label for="mail">Email-id</label>
+            <input type="email" id="mail" name="mail" placeholder="Enter your Email-id">
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter password">
+
+            <label for="age">Age</label>
+            <input type="number" id="age" name="age" min="0" max="100">
+
+            <label for="contact">Contact</label>
+            <input type="tel" id="contact" name="contact" pattern="[6-9]{1}[0-9]{9}" placeholder="Phone-number">
+
+            <label for="dob">Date of birth</label>
+            <input type="date" id="dob" name="dob">
+
+            <label for="time">Time</label>
+            <input type="time" id="time" name="time">
+
+            <label for="datetime">Date & Time</label>
+            <input type="datetime-local" id="datetime" name="datetime">
+
+            <label for="range">Volume</label>
+            <input type="range" id="range" name="range" min="20" max="80">
+
+            <label>Gender</label>
+            <div class="radio-group">
+                <label for="m"><input type="radio" id="m" name="gender" value="Male" checked> Male</label>
+                <label for="f"><input type="radio" id="f" name="gender" value="Female"> Female</label>
+                <label for="o"><input type="radio" id="o" name="gender" value="Others" disabled> Others</label>
+            </div>
+
+            <label>Language</label>
+            <div class="checkbox-group">
+                <label for="eng"><input type="checkbox" id="eng" name="lang" value="eng"> English</label>
+                <label for="hin"><input type="checkbox" id="hin" name="lang" value="hin"> Hindi</label>
+                <label for="bhojpuri"><input type="checkbox" id="bhojpuri" name="lang" value="Bhojpuri"> Bhojpuri</label>
+            </div>
+
+            <label for="places">Places</label>
+            <select id="places" name="places">
+                <option value="bangalore" selected>Bangalore</option>
+                <option value="kolkata">Kolkata</option>
+                <option value="mumbai" disabled>Mumbai</option>
+                <option value="delhi">Delhi</option>
+                <option value="haldawani">Haldawani</option>
+            </select>
+
+            <label for="cmnt">Comments</label>
+            <textarea id="cmnt" name="cmnt" cols="30" rows="5" placeholder="Enter your comments"></textarea>
+
+            <label for="color">Color</label>
+            <input type="color" id="color" name="color">
+
+            <div class="half-width">
+                <input type="reset" value="Reset">
+            </div>
+            <div class="half-width">
+                <input type="submit" value="Log In">
+            </div>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
