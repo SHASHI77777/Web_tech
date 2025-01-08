@@ -1,0 +1,18 @@
+.para{
+    border-style: double;
+    border-color: chocolate;
+    border-width: 10px;
+
+    border-radius: 10px;
+}
+
+.para1{
+    border-left-color: red;
+    border-left-style:solid;
+    border-left-width: 5px;
+
+border-bottom-style: double;
+border-bottom-width: 10px;
+border-bottom-color: blue;
+border-bottom-left-radius: 10px ;
+}

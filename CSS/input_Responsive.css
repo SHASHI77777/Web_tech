@@ -1,0 +1,26 @@
+body {
+  background-color: wheat;
+}
+
+input {
+  display: block;
+  border: solid 2px black;
+  margin: auto;
+  height: 20px;
+  width: 60%;
+  outline: none;
+  border-radius: 10px;
+  padding: 0px 10px ;
+}
+/* @media screen and (min-width: 340px) and (max-width: 400px) {
+  input {
+    display: grid;
+    width: 30%;
+  }
+}
+@media screen and (max-width: 335px) {
+  input {
+    display: grid;
+    width: 10%;
+  }
+} */

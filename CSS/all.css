@@ -1,0 +1,52 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.con {
+  border: solid 2px black;
+  height: 100px;
+  width: 100px;
+  background-color: darkmagenta;
+
+  animation: run 3s infinite;
+
+  animation-direction: reverse;
+}
+
+@keyframes run {
+  0% {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border-radius: 0%;
+  }
+  25% {
+    position: relative;
+    top: 0px;
+    left: 500px;
+    height: 100px;
+    width: 150px;
+    border-radius: 0%;
+  }
+  50% {
+    position: relative;
+    top: 400px;
+    left: 500px;
+    width: 150px;
+    border-radius: 50%;
+  }
+  75% {
+    position: relative;
+    top: 400px;
+    left: 0px;
+    border-radius: 50%;
+  }
+
+  100% {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border-radius: 0%;
+  }
+}

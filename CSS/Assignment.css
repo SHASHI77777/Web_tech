@@ -1,0 +1,27 @@
+h1{
+ text-align: center;
+
+}
+
+.photo-container{
+    border: solid 3px black;
+    width: 90%;
+    height: 90%;
+    display: flex;
+    margin: 0;
+    justify-content:space-between;
+  padding-left: 50px;
+    margin-left:5px;
+
+    
+}
+.photo-row img {
+    padding-top: 5px;
+    width:250px;
+    height: 200px;
+   
+}
+
+
+
+

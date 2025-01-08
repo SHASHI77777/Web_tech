@@ -1,0 +1,94 @@
+
+h1 , b{
+background-color: orange;
+text-align: center;
+}
+
+b{
+    display: block;
+}
+
+button,a{
+  display: block;
+  margin: 20px auto;
+  width: 20%;
+
+  background:transparent;
+  border: solid 3px blue;
+  color: blue;
+  font-weight: bold;
+  border-radius: 30px;
+  box-shadow: 5px 5px 5px gray;
+  padding: 5px 5px ;
+  
+}
+
+a{
+  text-decoration: none;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: small;
+}
+
+.box
+{
+    border: solid 2px black;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin: 10px;
+   
+
+}
+.color1{
+    background-color: red;
+
+}
+.color2{
+    background-color: yellow;
+}
+.color3{
+    background-color: green;
+}
+.Container{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    
+
+}
+
+.text{
+    border: solid 2px black;
+    height: 150px;
+    width: 300px;
+    background-color: aqua;
+    margin: 25px auto;
+
+    font-size: 30px;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.Cont{
+    
+    
+    border: solid 2px black;
+   height: 100px ;
+   width: 100px ;
+   display: flex;
+   justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.Circle{
+    
+    height: 50px;
+    width: 50px;
+    background-color: aqua;
+    border-radius: 50%;
+ 
+}

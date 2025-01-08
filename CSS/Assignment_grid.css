@@ -1,0 +1,40 @@
+body {
+  background-color: violet;
+}
+h1 {
+  text-align: center;
+  background: linear-gradient(crimson,aquaww);
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-evenly;
+  row-gap: 10px;
+}
+img {
+  border: solid 2px black;
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+
+}
+
+
+
+@media screen and (min-width: 630px) and (max-width: 925px) {
+  .main {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}
+@media screen and (max-width: 630px) {
+  .main {
+    display: grid;
+    grid-template-columns: auto;
+  }
+}
+
+a

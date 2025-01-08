@@ -1,0 +1,167 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.main{
+    margin: auto;
+    margin-top: 200px;
+    border: solid 2px black;
+    height: 505px;
+    width: 505px;
+    position: relative;
+    background-color: black;
+}
+.box {
+
+  background-color: black;
+  animation: one 8s ;
+}
+.main .con {
+  height: 100px;
+  width: 100px;
+  border: solid 2px black;
+  background-color: yellow;
+  /* animation: one 8s infinite; */
+  position: absolute;
+}
+.main .con1 {
+  border: solid 2px black;
+  height: 100px;
+  width: 100px;
+  background-color: green;
+  /* animation: two 8s infinite; */
+  animation-delay: 2s;
+  position: absolute;
+}
+.main .con2 {
+  height: 100px;
+  width: 100px;
+  border: solid 2px black;
+  background-color: violet;
+  /* animation: three 8s infinite; */
+  animation-delay: 4s;
+  position: absolute;
+}
+.main .con3 {
+  border: solid 2px black;
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  /* animation: four 8s infinite; */
+  animation-delay: 6s;
+  position: absolute;
+}
+
+@keyframes one {
+  0% {
+  
+    top: 0px;
+    left: 0px;
+  }
+
+  25% {
+    /* position: absolute; */
+    top: 0px;
+    left: 400px;
+  }
+  50% {
+    /* position: absolute; */
+    top: 400px;
+    left: 400px;
+  }
+  75% {
+    /* position: absolute; */
+    top: 400px;
+    left: 0px;
+  }
+  100% {
+    /* position: absolute; */
+    top: 0px;
+    left: 0px;
+  }
+}
+
+/* @keyframes two {
+  0% {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+
+  25% {
+    position: absolute;
+    top: 0px;
+    left: 400px;
+  }
+  50% {
+    position: absolute;
+    top: 400px;
+    left: 400px;
+  }
+  75% {
+    position: absolute;
+    top: 400px;
+    left: 0px;
+  }
+  100% {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+}
+@keyframes three {
+  0% {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+
+  25% {
+    position: absolute;
+    top: 0px;
+    left: 400px;
+  }
+  50% {
+    position: absolute;
+    top: 400px;
+    left: 400px;
+  }
+  75% {
+    position: absolute;
+    top: 400px;
+    left: 0px;
+  }
+  100% {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+}
+@keyframes four {
+  0% {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+
+  25% {
+    position: absolute;
+    top: 0px;
+    left: 400px;
+  }
+  50% {
+    position: absolute;
+    top: 400px;
+    left: 400px;
+  }
+  75% {
+    position: absolute;
+    top: 400px;
+    left: 0px;
+  }
+  100% {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+} */

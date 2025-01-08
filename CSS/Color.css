@@ -1,0 +1,21 @@
+
+h1{
+    color:orange;
+    text-align: center;
+}
+
+.abc{
+    color: blue;
+    background-color: orange;
+    
+}
+
+#abc1{
+    color: #0000ff;
+
+}
+
+.abc2{
+    color:blue;
+    background-color: rgb(9, 125, 9);
+}

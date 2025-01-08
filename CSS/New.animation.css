@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .cont {
+     border: none;
+    height: 700px;
+    width: 700px; 
+    /* background-color:orange; */
+    margin: auto; 
+    position: relative; 
+  }
+  
+  .box1 {
+    border: solid 1px black;
+    height: 170px;
+    width: 170px;
+    margin: 25px auto;
+    background-color:orange;
+    position: absolute;
+    animation: run1 8s ;
+    animation-delay: 0s;
+  }
+  .box2 {
+    border: solid 1px black;
+    height: 100px;
+    width: 100px;
+    background-color:white;
+    margin: 25px auto;
+    justify-content: center;
+    align-items: center;
+    animation: run2 8s ;
+    animation-delay: 8s;
+  }
+  .box3 {
+    border: solid 1px black;
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    margin: 25px auto;
+    justify-content: center;
+    align-items: center;
+    animation: run3 8s ;
+    animation-delay: 16s;
+  }
+  
+  @keyframes run1 {
+    0% ,100%{
+      margin: 25px;
+      position: absolute;
+    }
+    25% {
+      margin-top: 0%;
+      margin-left: 500px;
+      position: absolute;
+    }
+    50% {
+      margin-top: 500px;
+      margin-left: 500px;
+      position: absolute;
+    }
+    75% {
+      margin-top: 500px;
+      margin-left: 0px;
+      position: absolute;
+      
+    }
+  }
+  @keyframes run2 {
+    0% ,100%{
+      margin: 25px;
+      position: absolute;
+    }
+    25% {
+      margin-top: 25%;
+      margin-left: 550px;
+      position: absolute;
+    }
+    50% {
+      margin-top: 550px;
+      margin-left: 550px;
+      position: absolute;
+    }
+    75% {
+      margin-top: 550px;
+      margin-left: 25px;
+      position: absolute;
+    }
+  }
+  @keyframes run3 {
+    0% ,100%{
+      margin: 25px;
+      position: absolute;
+    }
+    25% {
+      margin-top: 50px;
+      margin-left: 550px;
+      position: absolute;
+    }
+    50% {
+      margin-top: 500px;
+      margin-left: 550px;
+      position: absolute;
+    }
+    75% {
+      margin-top: 500px;
+      margin-left: 50px;
+      position: absolute;
+    }
+  }

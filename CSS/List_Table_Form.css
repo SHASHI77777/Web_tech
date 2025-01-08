@@ -1,0 +1,49 @@
+ul{
+    /* list-style-type: lower-alpha;
+    list-style-position: inside; 
+    list-style-image: url('./images/images\ \(4\).jpeg'); */
+}
+
+table,th,td{
+    border: solid 5px black;
+
+
+
+}
+
+table{
+    height: 200px;
+    width: 500px;
+   margin: auto;
+   border-collapse: collapse;
+}
+td{
+    text-align: center;
+    font-weight: bold;
+}
+
+th{
+    color: red;
+}
+
+input{
+    display: block;
+    margin: 20px auto;
+    height: 30px;
+    width: 30%;
+    text-align: center;
+    box-shadow: inset 1px 1px 10px blue;
+    border: solid 1px blue;
+
+    border-radius: 10px;
+
+}
+
+
+input[type="submit"]{
+    width: 10%;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black;
+}

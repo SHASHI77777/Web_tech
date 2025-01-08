@@ -1,0 +1,55 @@
+.div1{
+    border: solid 1px black;
+    height: 200px;
+    width: 300px;
+    /* background:linear-gradient(orange,white,green); */
+    background:linear-gradient(orange,white,green);
+    
+}
+.div2{
+    border: solid 1px black;
+    height: 200px;
+    width: 300px;
+    background:linear-gradient(to bottom right,red,yellow);
+
+}
+.div3{
+    border: solid 1px black;
+    height: 200px;
+    width: 300px;
+    background:linear-gradient(orange,white,green);
+}
+.cont{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.cont2{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.div4{
+    border: solid 1px black;
+    height: 200px;
+    width: 300px;
+    background:radial-gradient( circle at left ,red,green);
+    
+}
+.div5{
+    border: solid 1px black;
+    height: 200px;
+    width: 300px;
+    background:radial-gradient( circle at center,red,green);
+
+}
+.div6{
+    border: solid 1px black;
+    height: 200px;
+    width: 300px;
+    /* background:radial-gradient( circle at right,red,green); */
+    background: conic-gradient(red,yellow,red);
+
+}

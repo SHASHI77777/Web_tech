@@ -1,0 +1,21 @@
+.para{
+    text-align: justify;
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-indent: 100px;
+}
+.para1{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    font-family:cursive;
+    color:red;
+    text-align: justify;
+}
+
+
+h1{
+    text-align: center;
+    text-shadow: 30px 20px 8px gray;
+
+}

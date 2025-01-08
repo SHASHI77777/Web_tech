@@ -1,0 +1,143 @@
+button{
+    display: block;
+    margin: auto;
+    width: 30%;
+    height: 30px;
+    border: soild 2px black;
+    color: blueviolet;
+
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+button:hover{
+    background-color: red;
+    color: white;
+    box-shadow: 1px 1px 1px 5px gray;
+
+}
+
+button:active{
+    background-color: orange;
+    border-color: orange;
+}
+
+
+.box{
+    border: solid 1px black;
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    margin: 25px auto;
+    transition: all 3s;
+}
+
+.box:hover{
+    background-color: orange;
+    border-radius: 50%;
+}
+
+.box:active{
+    background-color: black;
+}
+
+
+.form{
+
+    border: solid 2px black ;
+    width: 40%;
+    padding-top: 10px ;
+    margin:  20px auto;
+    background: linear-gradient(to top left, orange  , white   ,green  );
+
+}
+
+.form input{
+display: block;
+margin: 10px auto;
+height: 30px;
+width: 80%;
+border: none;
+border-radius: 10px;
+}
+
+.form input[type="submit"]{
+    width: 20%;
+}
+
+.form input:focus{
+    outline: none;
+    border: solid 1px black;
+}
+.form input::placeholder{
+    text-align: center;
+     color: rgba(137, 43, 226, 0.716);
+     font-weight: bold;
+     
+
+}
+
+p{
+    border: solid 2px blueviolet;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    text-align: justify;
+}
+
+p::first-letter{
+    font-style: italic;
+    font-size: 40px;
+    font-weight: bold;
+    color: red;
+}
+
+p::first-line{
+    color: brown;
+    font-weight: bold;
+
+}
+
+p::selection{
+    background: black;
+    color: orchid;
+}
+
+
+ul{
+    list-style: none;
+}
+li:nth-child(odd){
+    background-color: yellow;
+}
+
+li::before{
+    content:"=>" ;
+}
+li::after{
+    content:"." ;
+}
+
+
+.bgimg{
+    border: solid 2px black;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    
+    background: url(./images/card2img.jpeg) no-repeat center;
+    background-size: 100%;
+    transition: all 2s;
+}
+
+.bgimg:hover{
+    /* background-size: 50%; */
+
+    /* transform: scale(1.5); */
+    transform: rotate(45deg);
+
+}
+

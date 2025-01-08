@@ -1,0 +1,92 @@
+.square{
+    border: solid 10px red;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+.rectangle{
+
+        border-style: soild;
+        border-width: 10px;
+        height: 100px;
+        width: 150px;
+        border-color:brown;
+        background-color: brown;
+    }
+.circle{
+   
+        border-style: soild;
+        border-width: 10px;
+      height: 100px;
+      width: 100px;
+
+      border-radius: 50%;
+        border-color: yellow;
+        background-color: yellow;
+    }
+
+
+    .oval{
+        border-style:solid;
+        border-width: 10px;
+      height: 100px;
+      width: 150px;
+
+      border-radius:50%;
+      
+        border-color: green;
+        background-color: green;
+
+    }
+
+   .triangle{
+        /* width: 0;
+        height: 0;
+        border-left: 50px solid  transparent;
+        border-right: 50px solid transparent;
+        border-bottom: 100px solid black; */
+
+        border: solid 1px black;
+        height: 0px;
+        width: 0px;
+  
+        border-top: solid 100px white;
+        border-left: solid 100px red;
+        border-bottom: solid 100px orange;
+        border-right: solid  100px white ;
+
+      }
+.leaf{
+    border-style:solid;
+    border-width: 10px;
+    height: 100px;
+    width: 150px;
+    border-top-left-radius: 100%;
+   
+    border-bottom-right-radius: 100%;
+    border-color: green;
+    background-color: green;
+    
+    
+}
+
+.Exam{
+    border: solid 2px red;
+    width: 200px;
+    height: 200px;
+    background-color: red ;
+    border-radius: 50px 0px 100%; 
+}
+
+.con{
+    border:solid 1px black;
+    height: 300px;
+     width: 30%;
+     margin: auto;
+     overflow: auto;
+     /* hidden/auto/scroll */
+     box-shadow: 30px 20px 10px gray;
+
+}
+
+

@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    border: solid 2px black;
+    height: 120px;
+    width: 120px;
+    background-color: aquamarine;
+
+    animation: move 3s infinite;
+}
+@keyframes move {
+    0%{
+        position: relative;
+        top: 0px;
+        left: 0px;
+     
+    }
+    25%{
+        position: relative;
+        top: 0px;
+        left: 400px;
+        
+    }
+    50%{
+        position: relative;
+        top: 300px;
+        left: 400px;
+    }
+    75%{
+        position: relative;
+        top: 300px;
+        left: 0px;
+    }
+    100%{
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+    
+}

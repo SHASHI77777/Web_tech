@@ -1,0 +1,17 @@
+body{
+    /* background-color: green; */
+
+    font-size: 25px;
+    background-image:url(./images/istockphoto-1343130293-170667a.webp);
+    background-repeat:no-repeat;
+    background-position:center;
+
+    background-size: cover;
+
+    background-attachment: fixed;
+
+}
+p{
+    color: red;
+}
+
